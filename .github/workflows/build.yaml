@@ -1,7 +1,9 @@
 name: first workflow
 on: push
-jobs: test1
-  runs-on: ubuntu-latest
-  steps:
-    - name: test
-      run: echo hello"
+jobs:
+  test1
+    runs-on:
+      - ubuntu-latest
+    steps:
+      - name: test
+        run: echo hello"
