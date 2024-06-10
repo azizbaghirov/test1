@@ -6,4 +6,4 @@ jobs:
       - ubuntu-latest
     steps:
       - name: test
-        run: echo hello"
+        run: echo hello
